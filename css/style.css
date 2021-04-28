@@ -1,0 +1,57 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+/* header  */
+header{
+    background-color: #1E2B38;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+header img{
+    width: 70px;
+    height: 70px;
+}
+
+/* main  */
+main{
+    background-color: #0F1E2C;
+    height: calc(100vh - 100px);
+    overflow: auto;
+}
+
+.album{
+    text-align: center;
+    color: WHITE;
+    padding: 20px;
+    background-color: #1B2633;
+    margin: 20px 10px 0 10px;
+    flex-basis: calc( (100% / 6) - 20px);
+}
+
+.title{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.author,
+.year{
+    font-size: 15px;
+    color: grey;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 60px;
+}
